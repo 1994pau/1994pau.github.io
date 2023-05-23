@@ -409,8 +409,8 @@ body{
 
 .footer__container{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content:space-between;
+    align-items:center;
     border-bottom: 1px solid #fff;
     padding-bottom: 60px;
     
@@ -468,7 +468,7 @@ body{
 
 .footer__copy{
     --padding-contaner: 30px 0;
-    text-align: center;
+    text-align:center;
     color: #fff;
 }
 
@@ -493,7 +493,8 @@ body{
     
     .nav__link--menu{
         position: fixed;
-        background-color: #000;
+        background-color: #f1f1f1;
+        background: linear-gradient(to right, #60badd, #c991d9fc);
         top: 0;
         left: 0;
         height: 100%;
